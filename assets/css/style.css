@@ -29,22 +29,39 @@ UTILITIES
   margin: 0 auto;
   width: 45%;
   text-align: center;
-  padding-top: 100px;
   border: 3px solid red;
   color: white;
 }
 
+section{
+  padding: 150px 0px;
+}
+
+.grey-section{
+  background-color: #F6F6F6;
+  padding: 150px 0px;
+}
+
+
 
 /* testi */
-h1{
+h1, h2{
   font-size: 50px;
   margin-bottom: 40px;
 }
 
+h3{
+  font-size: 25px;
+}
+
+p{
+  font-size: 19px;
+  margin-bottom: 40px;
+}
 
 /* bottoni */
 .button{
-  padding: 20px;
+  padding: 15px;
   border-radius: 50px;
   font-size: 18px;
   text-decoration: none;
@@ -63,6 +80,8 @@ h1{
 
 .blue-button{
   background-color: #8EA1E2;
+  color: white;
+  text-align: center;
 }
 
 
@@ -123,8 +142,60 @@ nav ul a.cta{
   height: 550px;
 }
 
-.hero-section-text{
-  font-size: 19px;
-  margin-bottom: 40px;
+
+
+
+/* 
+MAIN
+ */
+
+/* illustrazioni e testi sezioni */
+.illustration-sample-right{
+  float: left;
+  width: 50%;
 }
 
+.illustration-sample-left{
+  float: right;
+  width: 50%;
+}
+
+.text-sample-left{
+  float: right;
+  width: 32%;
+}
+
+.text-sample-right{
+  float: left;
+  width: 32%;
+}
+
+
+
+/* ultima sezione grigia */
+
+.last-box{
+  text-align: center;
+}
+
+.cta2{
+  padding-top: 20px;
+  margin-bottom: 30px;
+
+  text-align: center;
+
+  background-image: url('../img/stars.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  border: 2px solid red;
+}
+
+
+/*
+FOOTER
+*/
+
+footer{
+  background-color: #23272A;
+}
