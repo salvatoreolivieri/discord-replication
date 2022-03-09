@@ -42,7 +42,10 @@ section{
   padding: 150px 0px;
 }
 
+hr{
 
+  color: #7189DA;
+}
 
 /* testi */
 h1, h2{
@@ -198,4 +201,63 @@ FOOTER
 
 footer{
   background-color: #23272A;
+  padding: 80px 0px;
 }
+
+footer h3, .category-link{
+  color: #7189DA;
+  font-weight: bold;
+}
+
+
+footer ul :not(.category-link){
+  color: white;
+  cursor: pointer;
+}
+
+footer ul li{
+  padding-bottom: 10px;
+}
+
+
+footer span{
+  display: inline-block;
+  color: white;
+  margin-top: 20px;
+  vertical-align: middle;
+}
+
+.fa-brands{
+  padding-right: 20px;
+}
+
+
+/* colonne */
+.first-column{
+  float: left;
+  width: 40%;
+  margin-right: 20px;
+}
+
+.other-column{
+  float: left;
+  width: 20%;
+}
+
+.other-column ul{
+  list-style-type: none;
+}
+
+
+
+.logo-footer{
+  margin-top: 20px;
+  float: left;
+}
+
+
+.cta-footer{
+  float: right;
+}
+
+
