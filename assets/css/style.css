@@ -4,3 +4,127 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* 
+UTILITIES 
+*/
+
+.box{
+  margin: 0 auto;
+  width: 70%;
+  border: 3px solid red;
+}
+
+.box-hero-section{
+  margin: 0 auto;
+  width: 45%;
+  text-align: center;
+  padding-top: 100px;
+  border: 3px solid red;
+  color: white;
+}
+
+
+/* testi */
+h1{
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+
+/* bottoni */
+.button{
+  padding: 20px;
+  border-radius: 50px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.white-button{
+  background-color: white;
+  color: black;
+}
+
+.black-button{
+  background-color: black;
+  color: white;
+  margin-left: 20px;
+}
+
+.blue-button{
+  background-color: #8EA1E2;
+}
+
+
+
+/* 
+HEADER
+ */
+
+header{
+  background-color: #3161E0;
+}
+
+header nav ul{
+  list-style-type: none;
+}
+
+
+/* logo */
+nav ul a.logo{
+  float: left;
+  width: 20%;
+  text-align: left;
+
+  border: 3px solid yellow;
+}
+
+/* menu */
+nav ul a{ 
+  float: left;
+  width: 10%;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  
+
+  /* background-color: black; */
+  border: 3px solid purple;
+}
+
+/* call to action */
+nav ul a.cta{
+  float: right;
+  width: 20%;
+
+
+  background-color: green;
+  border: 3px solid yellow;
+}
+
+
+/* hero section */
+
+.hero-section{
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 550px;
+}
+
+.hero-section-text{
+  font-size: 19px;
+  margin-bottom: 40px;
+}
+
