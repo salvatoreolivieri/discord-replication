@@ -33,13 +33,18 @@ UTILITIES
   color: white;
 }
 
+.wave{
+  color: #F6F6F6;
+  margin: -10px;
+}
+
 section{
-  padding: 150px 0px;
+  padding: 70px 0px;
 }
 
 .grey-section{
   background-color: #F6F6F6;
-  padding: 150px 0px;
+  padding: 100px 0px;
 }
 
 hr{
@@ -112,7 +117,7 @@ header{
 }
 
 header nav ul{
-  list-style-type: none;
+  list-style: none;
 }
 
 
@@ -120,20 +125,23 @@ header nav ul{
 
 nav{
   padding-top: 10px;
+  height: 50px;
+  /* line-height: 50px; */
 }
 
 nav div.logo{
   float: left;
   width: 20%;
   text-align: left;
-  vertical-align: middle;
+
 
   /* border: 3px solid yellow; */
 }
 
+
 /* menu */
 
-nav ul{
+nav .menu{
   float: left;
   width: 60%;
   text-align: center;
@@ -143,7 +151,9 @@ nav ul{
 }
 
 nav ul li{ 
-  display: inline;
+  display: inline-block;
+  /* vertical-align: middle; */
+  line-height: 35px;
 }
 
 nav ul li a{
@@ -164,12 +174,14 @@ nav div.cta-header{
 
 /* hero section */
 
+/* Correzione: impostazione background corretta: aggiunta la posizione centrale */
 .hero-section{
   background-image: url('../img/jumbo.png');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-
-  height: 550px;
+  padding: 90px 0px;
+  height: 500px;
 }
 
 
